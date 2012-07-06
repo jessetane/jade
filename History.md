@@ -1,4 +1,28 @@
 
+0.26.3 / 2012-06-25 
+==================
+
+  * Update version of commander that supports node v0.8.
+
+0.26.2 / 2012-06-22 
+==================
+
+  * Added --options alias of --obj
+  * Added reserved word conflict prevention in Google's Closure Compiler 
+  * Added tag interpolation. Closes #657
+  * Allow the compiled client to use it's own jade util functions [3rd-Eden]
+  * Fixed `attrs()` escape bug [caseywebdev]
+
+0.26.1 / 2012-05-27 
+==================
+
+  * Changed default doctype to __html5__
+  * Performance: statically compile attrs when possible [chowey]
+  * Fixed some class attribute merging cases
+  * Fixed so `block` doesn't consume `blockquotes` tag [chowey]
+  * Fixed backslashes in text nodes [chowey]
+  * Fixed / in text. Closes #638
+
 0.26.0 / 2012-05-04 
 ==================
 
